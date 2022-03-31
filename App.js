@@ -7,6 +7,7 @@ import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 export default function App() {
   const [currentSubject, setCurrentSubject] = useState(null);
+  console.log("chamith")
   return (
     <SafeAreaView style={styles.container}>
       {!currentSubject ? 
